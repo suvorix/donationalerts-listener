@@ -1,0 +1,34 @@
+{
+  "name": "donationalerts-listener",
+  "version": "1.0.0",
+  "description": "Listener for DonationAlerts notifications and donations",
+  "main": "app.js",
+  "type": "commonjs",
+  "author": {
+    "name": "suvorix",
+    "url": "https://github.com/suvorix"
+  },
+  "license": "MIT",
+  "keywords": [
+    "donationalerts",
+    "websocket",
+    "listener",
+    "donations",
+    "notifications"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suvorix/donationalerts-listener.git"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "centrifuge": "^2.7.5",
+    "dotenv": "^16.3.1",
+    "ws": "^8.13.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
